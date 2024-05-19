@@ -36,4 +36,27 @@ En este directorio se guarda el código R utilizado para visualizar y analizar l
 
 Guarda el código y los resultados de la regresión lineal aplicada a uno de los datasets del Datasaurus.
 
+#### Código de Regresión Lineal en Python
+
+El script `regresion_lineal.py` realiza una regresión lineal, cuadrática y cúbica en el subconjunto "bullseye" del dataset `datasaurus.csv`. A continuación se detalla brevemente cada sección del código:
+
+1. **Importación de Librerías:**
+   - Se importan las librerías necesarias: `pandas`, `sklearn`, `matplotlib`, `numpy`, y `os`.
+
+2. **Carga del Dataset:**
+   - Se carga el archivo `datasaurus.csv` y se filtra el subconjunto "bullseye".
+
+3. **Preparación de los Datos:**
+   - Se preparan las variables `X` (independiente) e `y` (dependiente) para el análisis.
+
+4. **Creación y Entrenamiento de Modelos:**
+   - Se crean y entrenan modelos de regresión lineal, cuadrática y cúbica usando `LinearRegression` y `PolynomialFeatures`.
+
+5. **Predicciones:**
+   - Se calculan las predicciones para cada modelo a lo largo de un rango de valores de `X`.
+
+6. **Visualización:**
+   - Se grafican los datos originales y las líneas de regresión para cada modelo.
+
+
 ---
